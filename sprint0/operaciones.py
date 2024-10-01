@@ -1,16 +1,16 @@
-def suma(a, b):
-    return a + b
+def suma(n1, n2):
+    return n1 + n2
 
-def resta(a, b):
-    return a - b
+def resta(n1, n2):
+    return n1 - n2
 
-def multiplicacion(a, b):
-    return a * b
+def multiplicacion(n1, n2):
+    return n1 * n2
 
-def division(a, b):
-    if b == 0:
+def division(n1, n2):
+    if n2 == 0:
         raise ValueError("No se puede dividir por cero.")
-    return a / b
+    return n1 / n2
 
 if __name__ == "__main__":
     print(suma(3, 5))
