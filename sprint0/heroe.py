@@ -27,7 +27,7 @@ class Heroe:
             self.salud = self.salud_maxima
         print(f"Héroe se ha curado. Salud actual: {self.salud}")
 
-    #Creamos el método defenderse
+    #Creamos el metodo defenderse
     def defenderse(self):
         self.defensa += 5 #Se añaden 5 puntos a la defensa del heroe
         self.defensa_aumentada = True #Marcamos que la defensa ha sido aumentada para después restablecerla a la defensa original
