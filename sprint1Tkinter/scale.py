@@ -11,7 +11,7 @@ root.title("Barra Deslizante")
 # Tamaño de la ventana
 root.geometry("300x200")
 
-# Crear una barra deslizante (Scale)
+# Crear una barra deslizante
 barra_deslizante = tk.Scale(root, from_=0, to=100, orient='horizontal', command=actualizar_valor)
 barra_deslizante.pack(pady=20)
 
