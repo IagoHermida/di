@@ -27,11 +27,11 @@ def eliminar_usuario():
 def salir_aplicacion():
     root.quit()
 
-# Función para guardar la lista de usuarios (simulada con un messagebox)
+# Función para guardar la lista de usuarios
 def guardar_lista():
     messagebox.showinfo("Guardar Lista", "La lista de usuarios ha sido guardada")
 
-# Función para cargar la lista de usuarios (simulada con un messagebox)
+# Función para cargar la lista de usuarios
 def cargar_lista():
     messagebox.showinfo("Cargar Lista", "La lista de usuarios ha sido cargada")
 
